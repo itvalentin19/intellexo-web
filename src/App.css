@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Krona One";
 }
 
 .App-logo {
@@ -32,7 +33,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.button-primary {
+  border-radius: 81px;
+  background: linear-gradient(71deg, #FA5B0B -4.65%, #8FD9F5 94.43%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
